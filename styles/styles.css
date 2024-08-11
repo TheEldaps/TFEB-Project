@@ -1,0 +1,116 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #301014;
+}
+
+
+
+/* HEADER SECTION STYLING */
+.header {
+    width: 100%;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #dd403a;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+
+}
+
+nav ul {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-img {
+    width: 40px;
+}
+
+.header-title {
+    font-size: 1.5rem;
+    margin-left: 300px;
+
+}
+
+nav ul {
+    border: 1px solid black;
+}
+
+.header-title {
+    font-weight: bold;
+}
+
+.header-menu {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid yellow; */
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* BODY SECTION */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+main section {
+    width: 800px;
+    height: 450px;
+    padding: 15px;
+    border: 1px solid rgb(188, 188, 188);
+    background-color: #aeb4b2;
+    box-shadow: 1px 1px 10px 2px #d8ae31;
+}
+
+section h1 {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+section div {
+    margin: 20px;
+}
+
+div input {
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 3px 5px;
+}
+
+div label {
+    line-height: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+section button {
+    width: 150px;
+    height: 40px;
+    color: white;
+    margin: 0px 600px;
+    font-size: 1rem;
+    background-color: #301014;
+    border: inset;
+}
+
+section button: {}
