@@ -10,44 +10,56 @@
   <body>
     <nav class="header">
       <ul>
-        <li><img src="./img/starknetdapps.png" alt="" class="header-img" /></li>
         <li class="header-title">
           <header>THE RADIANT PHARMARCY INENTORY</header>
         </li>
         <section class="header-menu">
-          <li>Home</li>
-          <li>Dashboard</li>
-          <li>Inventory</li>
-          <li>Reports</li>
+          <a href=""><li>Home</li></a>
+          <a href=""><li>Dashboard</li></a>
+          <a href=""><li>Inventory</li></a>
+          <a href=""><li>Reports</li></a>
         </section>
       </ul>
     </nav>
 
     <main>
-      <section>
+      <section class="card">
         <h1>ADD YOUR ITEM</h1>
-        <div>
+        <div class="input-wrapper">
           <label for="PN">Product Name</label>
           <input type="text" id="PN" name="Prod-name" />
         </div>
 
-        <div>
+        <div class="input-wrapper">
           <label for="quantity">Quantity</label>
           <input type="text" id="quantity" name="cost" />
         </div>
 
-        <div>
+        <div class="input-wrapper">
           <label for="cost">Cost per unit</label>
           <input type="text" id="cost" name="cost" />
         </div>
 
-        <div>
+        <div class="input-wrapper">
           <label for="entered-by">Entered by</label>
           <input type="text" id="entered-by" name="entered-by" />
         </div>
 
-        <button>History/Dashboard</button>
+        <div class="btn-wrapper">
+          <a href=""><button class="submit-btn btns">Submit</button></a>
+
+          <a href="./dashboard.html"
+            ><button class="history-btn btns">History</button></a
+          >
+        </div>
       </section>
+
+      <img
+        src="./img/Radiant-logo-AnyEraser.png"
+        alt="Radiant-phamarcy-Logo"
+        class="header-logo"
+      />
+      <!-- <p class="copyright">&copy; 2024</p> -->
     </main>
   </body>
 </html>
