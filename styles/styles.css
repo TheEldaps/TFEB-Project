@@ -43,7 +43,7 @@ nav ul {
 
 .header-title {
     font-size: 1.5rem;
-    margin-left: 610px;
+    margin-left: 455px;
 
 }
 
@@ -51,12 +51,6 @@ nav ul {
     font-weight: bold;
 }
 
-.header-menu {
-    width: 25%;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 1.2rem;
-}
 
 li {
     list-style-type: none;
