@@ -4,27 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Radiant Phamarcy store</title>
+
+    <link
+      style="width: 100px; height: 100px"
+      rel="shortcut icon"
+      href="../RPPI-TFEB-Project/img/Radiant-logo-png.png"
+      type="image/x-icon"
+    />
+
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
 
   <body>
     <nav class="header">
-      <ul>
-        <li class="header-title">
-          <header>THE RADIANT PHARMARCY INENTORY</header>
-        </li>
-        <section class="header-menu">
-          <a href=""><li>Home</li></a>
-          <a href=""><li>Dashboard</li></a>
-          <a href=""><li>Inventory</li></a>
-          <a href=""><li>Reports</li></a>
-        </section>
-      </ul>
+      <section>
+        <div class="header-title">
+          <header>THE RADIANT PHARMACY INVENTORY</header>
+        </div>
+        <div class="search-section"></div>
+      </section>
     </nav>
 
     <main>
       <section class="card">
         <h1>ADD YOUR ITEM</h1>
+
         <div class="input-wrapper">
           <label for="PN">Product Name</label>
           <input type="text" id="PN" name="Prod-name" />
@@ -46,11 +50,11 @@
         </div>
 
         <div class="btn-wrapper">
-          <a href=""><button class="submit-btn btns">Submit</button></a>
+          <a href=""><button class="submit-btn btn">Submit</button></a>
 
           <a href="./dashboard.html"
-            ><button class="history-btn btns">History</button></a
-          >
+            ><button class="history-btn btn">History</button>
+          </a>
         </div>
       </section>
 
@@ -61,5 +65,11 @@
       />
       <!-- <p class="copyright">&copy; 2024</p> -->
     </main>
+    <script src="./script/script.js"></script>
+    <script>
+      document
+        .querySelector(".submit-btn")
+        .addEventListener("click", addToHistory);
+    </script>
   </body>
 </html>

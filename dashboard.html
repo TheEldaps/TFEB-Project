@@ -1,54 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      style="width: 100px; height: 100px"
+      rel="shortcut icon"
+      href="../RPPI-TFEB-Project/img/Radiant-logo-png.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Dashboard</title>
+  </head>
+
+  <body>
     <nav class="header">
-        <ul>
-          <li class="header-title">
-            <header>THE RADIANT PHARMARCY INENTORY</header>
-          </li>
-          <section class="header-menu">
-            <li><a href="">Home</a></li>
-            <li><a href="">Dashboard</a></li>
-            <li><a href="">Inventory</a></li>
-            <li><a href="">Reports</a></li>
-          </section>
-        </ul>
+      <section>
+        <div class="header-title">
+          <header>THE RADIANT PHARMACY INVENTORY</header>
+        </div>
+        <div class="search-section">
+          <input type="text" placeholder="Search items" />
+          <button class="btn">Search</button>
+        </div>
+      </section>
     </nav>
 
     <main>
-        
-        <section class="card">
-            <h1>HISTORY</h1>
-            <div class="history-tab">
-            <ol>
-                <li></li>
-            </ol>
+      <section class="card display-page">
+        <h1>HISTORY</h1>
+        <div class="history-tab">
+          <!-- <ol>
+            <li></li>
+          </ol> -->
+        </div>
 
+        <div class="btn-wrapper-2">
+          <a href="./index.html"><button class="bk-btn btn">Back</button></a>
+        </div>
+      </section>
 
-            </div>
-
-          <div class="btn-wrapper-2">
-            <a href="./index.html"><button class="bk-btn btns">Back</button></a>
-          </div>
-        </section>
-
-        <img
+      <img
         src="./img/Radiant-logo-AnyEraser.png"
         alt="Radiant-phamarcy-Logo"
         class="header-logo"
-      />/p> 
-        
+      />
     </main>
-    </body>
-  </html>
-  
-
-</body>
+    <script src="./script/script.js"></script>
+  </body>
 </html>
